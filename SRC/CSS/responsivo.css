@@ -1,0 +1,48 @@
+@media( max-width:1280px){
+    body{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:768px){
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informacoes .descricao{
+        width: 80%;
+        text-align: center;
+    }
+    
+}
+@media(max-width:425px){
+    .informacoes .logo{
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+    .informacoes .descricao{
+        width: 70%;
+        line-height: 5px;
+    }
+    .conteudo .botoes-carrossel{
+        margin-top: 20px;
+    }
+    .menu-lateral{
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .menu-lateral ul{
+        flex-direction: row-reverse;
+    }
+    .counteudo{
+        min-height:80vh ;
+        gap: 30px;
+    }
+    body{
+        padding: 10px;
+    }
+}
